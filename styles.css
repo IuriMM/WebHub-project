@@ -6,17 +6,17 @@
 
 @font-face {
   font-family: Clash;
-  src: url(../fonts/ClashDisplay-Bold.ttf);
+  src: url(fonts/ClashDisplay-Bold.ttf);
   font-weight: 700;
 }
 @font-face {
   font-family: Clash;
-  src: url(../fonts/ClashDisplay-Medium.ttf);
+  src: url(fonts/ClashDisplay-Medium.ttf);
   font-weight: 500;
 }
 @font-face {
   font-family: Clash;
-  src: url(../fonts/ClashDisplay-Light.ttf);
+  src: url(fonts/ClashDisplay-Light.ttf);
   font-weight: 400;
 }
 body {

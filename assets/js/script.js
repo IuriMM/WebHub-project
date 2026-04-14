@@ -17,14 +17,14 @@ window.addEventListener("load",() => {
     const videoFooter = document.querySelector(".img_footer video");
 
     if (videoHero) {
-        videoHero.src = "img/video-hero.mp4";
+        videoHero.src = "../img/video-hero.mp4";
         videoHero.autoplay = true;
         videoHero.loop = true;
         videoHero.muted = true;
     }
 
     if (videoFooter) {
-        videoFooter.src = "img/video-footer.mp4";
+        videoFooter.src = "../img/video-footer.mp4";
         videoFooter.autoplay = true;
         videoFooter.loop = true;
         videoFooter.muted = true;
@@ -104,7 +104,7 @@ window.addEventListener("load",() => {
     divDiamante.appendChild(renderer.domElement);
     
     const gltfLoader = new GLTFLoader();
-    gltfLoader.load("img/diamond-compressed.glb", (gltf) => {
+    gltfLoader.load("../img/diamond-compressed.glb", (gltf) => {
         const model = gltf.scene;
         model.position.z = -4
         scene.add(model);
@@ -113,7 +113,7 @@ window.addEventListener("load",() => {
     });
 
     const txtLoader = new THREE.TextureLoader();
-    txtLoader.load("img/hdri.webp", (texture) => {
+    txtLoader.load("../img/hdri.webp", (texture) => {
         texture.mapping = THREE.EquirectangularReflectionMapping
         const pmrem = new THREE.PMREMGenerator(renderer);
         const env = pmrem.fromEquirectangular(texture).texture;

@@ -16,10 +16,10 @@ Landing page da equipe WebHub com foco em UI/UX, performance visual e animaçõe
     ├── js
     │   └── script.js
     ├── img
-    │   ├── imagens .webp
-    │   ├── vídeos .mp4
-    │   ├── ícones .svg
-    │   └── modelos 3D .glb
+    │   ├── imagens (.webp)
+    │   ├── vídeos (.mp4)
+    │   ├── ícones (.svg)
+    │   └── modelos 3D (.glb)
     └── fonts
         └── fontes ClashDisplay (.ttf)
 ```
